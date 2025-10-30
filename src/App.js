@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import myphoto from "./myphoto.jpg";
 
 function App() {
   return (
     <div className="main">
       <header className="header">
-        <img src={myphoto} alt="avatar" className="avatar" />
+        <img src="/myphoto.jpg" alt="avatar" className="avatar" />
         <h1>Смирнов Владимир</h1>
         <p className="job-title">Аналитик данных</p>
         <div className="job-info">
